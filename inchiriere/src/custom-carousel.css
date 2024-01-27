@@ -1,0 +1,6 @@
+/* styles.css */
+
+.custom-carousel {
+  max-height: 10px; /* Ajustați înălțimea maximă după preferințe */
+  overflow: hidden;
+}

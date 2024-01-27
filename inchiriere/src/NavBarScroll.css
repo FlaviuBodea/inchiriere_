@@ -1,0 +1,86 @@
+/* NavBar.css */
+
+.custom-navbar {
+  background-color: #000;
+  padding: 20px 0;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1); /* Adăugăm o umbră sub navbar */
+}
+
+.custom-brand {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.custom-link {
+  color: #fff !important;
+  margin-right: 20px;
+}
+
+.custom-link:hover {
+  color: #ffcc00 !important;
+}
+
+/* Stil pentru meniul de navigare (navbar) */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Stil pentru spațiul dintre link-uri în meniu */
+.navbar-nav .nav-link {
+  margin-right: 20px;
+}
+/* Adaugă aceste stiluri la sfârșitul fișierului NavBarScroll.css */
+
+/* Stilizează fundalul pentru modale cu o nuanță mai închisă */
+.custom-modal {
+  background: rgba(0, 0, 0, 0.8); /* Fundal închis cu transparență */
+  border-radius: 10px;
+}
+
+/* Stilizează antetul modalului cu o nuanță mai închisă */
+.custom-modal-header {
+  background-color: #333; /* Culoare de fundal închisă */
+  color: #fff;
+  border-bottom: 1px solid #555; /* Linie de separare mai închisă */
+  border-radius: 10px 10px 0 0;
+}
+
+/* Stilizează butonul de închidere */
+.custom-modal-close-btn {
+  color: #fff;
+}
+
+/* Adaugă un efect de umbrire la hover pe butonul de închidere */
+.custom-modal-close-btn:hover {
+  color: #bbb; /* Culoare pentru hover */
+}
+
+/* Stilizează corpul modalului */
+.custom-modal-body {
+  padding: 20px;
+  color: #ddd; /* Culoare text corp modal */
+}
+
+/* Stilizează piciorul modalului */
+.custom-modal-footer {
+  border-top: 1px solid #555; /* Linie de separare mai închisă */
+  padding: 15px;
+}
+
+/* Stilizează butoanele din piciorul modalelor */
+.custom-modal-footer .btn-primary {
+  background-color: #007bff; /* Culoare buton principal */
+  border-color: #007bff;
+}
+
+/* Adaugă un efect de umbrire la hover pe butoanele modale */
+.custom-modal-footer .btn-primary:hover {
+  background-color: #0056b3; /* Culoare pentru hover */
+}
+
+/* Stilizează butoanele modale */
+.custom-modal-footer .btn {
+  border-radius: 5px;
+  margin-right: 10px;
+}

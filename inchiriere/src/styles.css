@@ -1,0 +1,92 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.custom-carousel-image {
+  max-height: 400px; /* sau orice valoare preferată pentru înălțimea maximă */
+  object-fit: cover; /* pentru a păstra proporțiile imaginii */
+}
+
+/* Adaugă aceste stiluri într-un fișier CSS sau într-un stil global al aplicației tale */
+
+/* Stilizează fundalul pentru modale */
+.modal-content {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilizează antetul modalelor */
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Stilizează titlul modalelor */
+.modal-title {
+  color: #fff;
+}
+
+/* Stilizează corpul modalelor */
+.modal-body {
+  padding: 20px;
+}
+
+/* Stilizează piciorul modalelor */
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+  padding: 15px;
+}
+
+/* Stilizează butoanele din piciorul modalelor */
+.modal-footer button {
+  margin-right: 10px;
+}
+
+/* Stilizează butoanele de închidere (closable) */
+.close {
+  color: #fff;
+}
+/* NavBarScroll.css */
+
+/* Adaugă un fundal semi-transparent pentru a evidenția modalul */
+.custom-modal {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+/* Stilizează antetul modalului */
+.custom-modal-header {
+  background-color: #007bff; /* Culoare pentru antetul modalului */
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Adaugă un efect de umbrire la hover pe butonul de închidere */
+.custom-modal-footer .btn-secondary:hover {
+  background-color: #0056b3; /* Culoare pentru hover */
+}
+
+/* Stilizează butonul de închidere */
+.custom-modal-close-btn {
+  color: #fff;
+}
+
+/* Adaugă un efect de umbrire la hover pe butonul de închidere */
+.custom-modal-close-btn:hover {
+  color: #d9d9d9; /* Culoare pentru hover */
+}
+
+/* Adaugă un efect de umbrire la hover pe butoanele modale */
+.custom-modal-footer .btn-primary:hover {
+  background-color: #0056b3; /* Culoare pentru hover */
+}
+
+/* Stilizează butoanele modale */
+.custom-modal-footer .btn {
+  border-radius: 5px;
+  margin-right: 10px;
+}
